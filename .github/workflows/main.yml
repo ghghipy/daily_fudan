@@ -29,7 +29,7 @@ jobs:
           git config --global user.name  github-actions
           git config --global user.email github-actions@github.com
           git config --global pull.rebase true
-          git remote add upstream https://github.com/cll24/daily_fudan.git
+          git remote add upstream https://github.com/ghghipy/daily_fudan.git
           git pull upstream master --allow-unrelated-histories
           git push origin master --force
       - name: Set up python
